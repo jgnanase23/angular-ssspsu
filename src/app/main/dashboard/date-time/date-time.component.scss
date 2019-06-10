@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+// Ignore this class.  It just adds a border so that you can find your element.
+:host {
+  border: 1px solid black;
+  display: block;
+  width: 217px;
+  height: 86px;
+}
+
+// write your cod          e here!!
+
+.time {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  float: right;
+  position: relative;
+  right: -50%;
+  top: 3px;
+  color: #2DBDB1;
+}
+
+.time.ampm {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  float: right;
+  position: relative;
+  right: -230%;
+  top: 12px;
+}
+
+.date {
+  font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  display: block;
+  white-space: nowrap;
+  margin-right: -65%;
+  color: #4B5853;
+}
+

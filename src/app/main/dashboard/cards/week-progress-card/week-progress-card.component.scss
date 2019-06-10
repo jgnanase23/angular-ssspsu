@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+// Ignore this class.  It just adds a border so that you can find your element.
+
+:host {
+  border: 1px solid black;
+  display: block;
+  width: 265px;
+  height: 310px;
+  border-radius: 10px;
+}
+
+.row {
+  display: grid;
+}
+
+* {
+ font-family: Montserrat;
+ font-style: normal;
+}
+
+.title {
+ font-weight: 600;
+ font-size: 22px;
+ line-height: 27px;
+ color: #4B5853;
+ position: relative;
+ margin-top: 25px;
+ margin-left:15px;
+} 
+
+.interview {
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 17px;
+ color: #EE8B72;
+ position: relative;
+ margin-top: 25px;
+ margin-left:15px;
+}
+
+.hours {
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 17px;
+ color: #EE8B72;
+ grid-column: 2;
+ grid-row: 1;
+ margin-left: -10px;
+ margin-top: 12px;
+}
+
+.hours.green {
+ color: #2DBDB1;
+ margin-left: -35px;
+}
+
+.hours.peach {
+ color: #FFB987;
+ margin-left: -55px;
+}
+
+.coverletter{ 
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 17px;
+ color: #2DBDB1;
+ margin-left: 15px;
+ margin-top: 20px;
+}
+
+.internapps {
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 17px;
+ color: #FFB987;
+ margin-left: 15px;
+ margin-top: 20px;
+}
+
+
+.rectangle { 
+  height: 30px;
+  width: 75px;
+  background: #EE8b72;
+  border-radius: 3px 0px 0px 3px;
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.rectangleshadow {
+  width: 168px;
+  height: 30px;
+  background: rgba(238, 139, 114, 0.3);
+  border-radius: 3px;
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.rectangle.green {
+  width: 101px;
+  height: 30px;
+  background: #2DBDB1;
+  border-radius: 3px 0px 0px 3px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.rectangleshadow.green {
+  width: 136px;
+  height: 30px;
+  background: rgba(45, 189, 177, 0.3);
+  border-radius: 3px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.rectangle.peach {
+  width: 70px;
+  height: 30px;
+  background: #FFB987;
+  border-radius: 3px 0px 0px 3px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.rectangleshadow.peach{
+  width: 112px;
+  height: 30px;
+  background: rgba(255, 185, 135, 0.3);
+  border-radius: 3px;
+  grid-column: 1;
+  grid-row: 1;
+}
